@@ -1,0 +1,101 @@
+/*Bethusile Mafumana*/
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: Verdana;    
+    margin: 0%;
+    background-color: lightblue;    
+}
+.p{
+    padding: 0.5rem 0.5rem;
+}
+h1{
+    text-align: center;
+    color: darkgreen;
+    padding: 1em 0 1em 0;
+}
+.menu{
+    list-style-type:none;
+    display: flex;
+    margin: 1rem;
+}
+.menu a{
+    color: darkblue;
+    text-decoration: none;
+    padding: 0 2em 0 0;    
+}
+.menu a:hover{
+    color: white;
+}
+.italicblue{
+    color: blue;
+    font-style: italic;
+}
+#bold{
+    text-align: center;
+    font-weight: bold;
+}
+td, th{
+    padding: 0.5em;
+    border: 2px solid #00BFFF;
+}
+table{
+    background-color: white;
+    border-collapse: collapse;
+}
+#footer{
+    font-weight: bold;
+    text-align: center;
+    size: 70%;
+    margin:1em;
+}
+.links2{
+    display: grid;
+}
+img{
+    border: 1px solid blue;
+    margin: 1em;
+}
+/* ----------------------------Types page----------------------------*/
+.heading {
+    background-color: #00BFFF;
+}
+.container {
+    display: flex;       
+}
+.container img{
+    border-style: none;    
+}
+.pic{
+    background-color: white;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 0.5rem;
+    flex: 1;
+}
+hr{
+    border: 0.5px solid blue;
+}
+
+#flexcontainer{
+    display: flex;
+    flex: absolute;
+}
+#flexitem1{
+    flex: 3;
+    padding: 1em;
+    margin: 0.5em;
+    box-sizing: border-box;
+    background: white;
+}
+#flexitem2{
+    flex: 1;
+    padding: 1em;
+    margin: 0.5em;
+    box-sizing: border-box;
+    background: white;
+}
+
+
